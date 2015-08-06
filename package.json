@@ -1,0 +1,20 @@
+{
+  "name": "yuanzi-api",
+  "version": "3.1.4",
+  "description": "43fixed:修改卡片分享跳转官网的bug",
+  "private": true,
+  "dependencies": {
+    "avoscloud-sdk": "^0.5.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^3.1.19"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha",
+    "lint": "jshint --reporter=node_modules/jshint-stylish/stylish.js .",
+    "style": "jscs .",
+    "test-cov": "istanbul cover ./node_modules/mocha/bin/_mocha"
+  },
+  "//": "passport-tqq^0.0.2"
+}
